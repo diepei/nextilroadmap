@@ -1,0 +1,273 @@
+{
+  "source": {
+    "date": "2026-06-04",
+    "file": "plan-nextil-2026-2030.pdf",
+    "label": "Investors Day · 4 junio 2026",
+    "basis": "Ventas y EBITDA normalizados. Guidance 2026–2027 considerando las adquisiciones desde el 1 de enero del ejercicio."
+  },
+  "years": [
+    {
+      "year": 2026,
+      "title": "Validar el crecimiento",
+      "sales": 118,
+      "ebitda": 25,
+      "investment": 35,
+      "euSales": 43,
+      "usSales": 75,
+      "euEbitda": 11,
+      "usEbitda": 14,
+      "debt": 35,
+      "ratio": 1.4,
+      "type": "Guidance",
+      "items": [
+        [
+          "M&A: primeras integraciones",
+          "2 objetivos en proceso de cierre y 2 en negociación. Ingresos asociados de 70–80 M€ y margen EBITDA >21%. No equivale a adquisiciones completadas.",
+          25
+        ],
+        [
+          "Impulso comercial en América",
+          "El plan comunica 500 M$ de compromiso y previsión comercial agregados a largo plazo, frente a 375 M$ anteriores. No son ventas reconocidas del año.",
+          1
+        ],
+        [
+          "Disciplina de capital",
+          "Base de 457.835.212 acciones en el primer semestre de 2026 para el límite de dilución del periodo.",
+          27
+        ]
+      ]
+    },
+    {
+      "year": 2027,
+      "title": "Escalar la plataforma",
+      "sales": 237,
+      "ebitda": 51,
+      "investment": 40,
+      "euSales": 106,
+      "usSales": 131,
+      "euEbitda": 27,
+      "usEbitda": 24,
+      "debt": 85,
+      "ratio": 1.6,
+      "type": "Previsión",
+      "items": [
+        [
+          "Plena utilización en América",
+          "Capacidad industrial llena durante el ejercicio 2027, según la previsión del plan.",
+          23
+        ],
+        [
+          "M&A: ampliar capacidades",
+          "3 objetivos identificados. Ingresos asociados de 55–65 M€ y margen EBITDA >24%.",
+          25
+        ],
+        [
+          "Validación del modelo",
+          "2026–2027 se definen como las fases de validación antes del escalado hacia 2030.",
+          28
+        ]
+      ]
+    },
+    {
+      "year": 2028,
+      "title": "Expandir y retribuir",
+      "sales": null,
+      "ebitda": null,
+      "investment": 65,
+      "euSales": null,
+      "usSales": null,
+      "euEbitda": null,
+      "usEbitda": null,
+      "debt": null,
+      "ratio": null,
+      "type": "Plan",
+      "items": [
+        [
+          "M&A 2028–2030",
+          "1–2 objetivos por año; 3 ya identificados para el periodo. Ingresos asociados >75 M€ y margen EBITDA >20%; el documento no desglosa los ingresos por año.",
+          25
+        ],
+        [
+          "Inicio de la retribución prevista",
+          "Payout del 20–25% del beneficio antes de impuestos consolidado, mediante recompras para amortización durante 2028–2030.",
+          1
+        ]
+      ]
+    },
+    {
+      "year": 2029,
+      "title": "Consolidar la expansión",
+      "sales": null,
+      "ebitda": null,
+      "investment": 60,
+      "euSales": null,
+      "usSales": null,
+      "euEbitda": null,
+      "usEbitda": null,
+      "debt": null,
+      "ratio": 2.0,
+      "type": "Plan",
+      "items": [
+        [
+          "Continuidad de M&A",
+          "Continúa la previsión de 1–2 objetivos anuales del bloque 2028–2030.",
+          25
+        ],
+        [
+          "Recompras y disciplina financiera",
+          "Continúa la política prevista para 2028–2030, manteniendo DFN/EBITDA por debajo de 2,5x durante todo el plan.",
+          1
+        ]
+      ]
+    },
+    {
+      "year": 2030,
+      "title": "Alcanzar NXT2030",
+      "sales": 750,
+      "ebitda": 150,
+      "investment": 50,
+      "euSales": 250,
+      "usSales": 500,
+      "euEbitda": 60,
+      "usEbitda": 90,
+      "debt": 200,
+      "ratio": 1.3,
+      "type": "Objetivo",
+      "items": [
+        [
+          "Plataforma global y dual",
+          "Europa: lujo y premium. América: manufactura avanzada, verticalizada y de grandes volúmenes. NextGreen™ como plataforma transversal.",
+          20
+        ],
+        [
+          "Generación de caja",
+          "Flujo de caja libre acumulado estimado superior a 120 M€ en 2026–2030 para financiar el crecimiento.",
+          26
+        ],
+        [
+          "Valor por acción",
+          "BPA estimado de 0,22–0,25 €/acción y aproximadamente 550 millones de acciones máximas en circulación.",
+          27
+        ]
+      ]
+    }
+  ],
+  "objectives": [
+    [
+      "Ventas consolidadas",
+      "750 M€",
+      "2030",
+      29,
+      "Ventas normalizadas. Europa ≈250 M€ y América ≈500 M€."
+    ],
+    [
+      "EBITDA consolidado",
+      "150 M€",
+      "2030",
+      29,
+      "EBITDA normalizado. Europa ≈60 M€ y América ≈90 M€."
+    ],
+    [
+      "Crecimiento orgánico · América",
+      "44% CAGR",
+      "2026–2030",
+      22,
+      "Tasa anual compuesta de ingresos orgánicos; no es la tasa del crecimiento total con M&A."
+    ],
+    [
+      "Crecimiento orgánico · Europa",
+      "12% CAGR",
+      "2026–2030",
+      22,
+      "Tasa anual compuesta de ingresos orgánicos del hub europeo."
+    ],
+    [
+      "Inversión acumulada",
+      "≈250 M€",
+      "2026–2030",
+      32,
+      "M&A, mantenimiento y ampliación de capacidad. Secuencia anual: 35, 40, 65, 60 y 50 M€."
+    ],
+    [
+      "Deuda neta / EBITDA",
+      "<2,5x",
+      "Todo el plan",
+      1,
+      "Límite durante toda la vigencia. Aspiración adicional: obtener rating de grado de inversión (p. 33)."
+    ],
+    [
+      "Flujo de caja libre acumulado",
+      ">120 M€",
+      "2026–2030",
+      26,
+      "Destinado principalmente a la autofinanciación del crecimiento."
+    ],
+    [
+      "Incremento del número de acciones",
+      "Máx. 20%",
+      "2026–2030",
+      1,
+      "Base: acciones al cierre del primer semestre de 2026. La diapositiva 26 usa <20%; se conserva el máximo del 20% del comunicado."
+    ],
+    [
+      "Retribución al accionista",
+      "20–25% del BAI",
+      "2028–2030",
+      1,
+      "Mediante recompra de acciones para posterior amortización; no un dividendo en efectivo ni un porcentaje del beneficio neto."
+    ],
+    [
+      "BPA estimado",
+      "0,22–0,25 €",
+      "2030",
+      27,
+      "Estimación por acción. El plan muestra ≈550 millones de acciones máximas y hasta 90 millones de acciones nuevas."
+    ]
+  ],
+  "pillars": [
+    {
+      "name": "Hub Europa",
+      "place": "España · Portugal",
+      "goal": "Lujo, premium e innovación",
+      "cagr": "12%",
+      "sales": "250",
+      "ebitda": "60",
+      "page": 14,
+      "items": [
+        "Colecciones propias e innovación en tejido y prenda",
+        "I+D y automatización productiva, incluida IA aplicada al patronaje",
+        "Expansión global de soluciones seamless",
+        "M&A selectivo para ampliar productos y acceso a clientes"
+      ]
+    },
+    {
+      "name": "Hub América",
+      "place": "Guatemala · El Salvador",
+      "goal": "Escala industrial y cercanía a EE. UU.",
+      "cagr": "44%",
+      "sales": "500",
+      "ebitda": "90",
+      "page": 15,
+      "items": [
+        "Partnerships para aumentar la capacidad vertical",
+        "Expansión de compromisos con clientes finales",
+        "Consolidación del mercado medical en EE. UU.",
+        "M&A de confeccionadoras para añadir volumen y capacidad"
+      ]
+    },
+    {
+      "name": "NextGreen™",
+      "place": "Plataforma transversal",
+      "goal": "Sostenibilidad con tecnología propia",
+      "cagr": null,
+      "page": 16,
+      "items": [
+        "Programas textiles sostenibles para clientes globales",
+        "Circularidad y materiales responsables",
+        "Productos de mayor valor añadido",
+        "Aplicación de tecnología propia Greendyes®",
+        "Trazabilidad y cumplimiento regulatorio"
+      ]
+    }
+  ]
+}
