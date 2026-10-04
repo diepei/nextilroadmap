@@ -15,6 +15,18 @@ assert.match(element('year-panel').innerHTML,/118/);
 for(const y of data.years){vm.runInContext(`renderYear(${y.year},true)`,context);assert.equal(tabs.filter(t=>t['aria-selected']==='true').length,1);assert.equal(element('year-panel')['aria-labelledby'],'tab-'+y.year);assert.ok(element('year-panel').innerHTML.includes(y.title));assert.ok(!element('year-panel').innerHTML.includes('NaN'));}
 for(let i=0;i<data.objectives.length;i++){vm.runInContext(`showDetail(${i})`,context);assert.equal(element('detail-title').textContent,data.objectives[i][0]);assert.ok(element('detail-dialog').open);}
 const html=fs.readFileSync('dist/index.html','utf8');
-for(const match of html.matchAll(/(?:href|src)="([^"#][^"]*)"/g)){const ref=match[1].split('#')[0];if(!ref.startsWith('data:'))assert.ok(fs.existsSync('dist/'+ref),ref);}
+for(const match of html.matchAll(/(?:href|src)="([^"#][^"]*)"/g)){const ref=match[1].split('#')[0];if(!/^(?:data:|https?:)/.test(ref))assert.ok(fs.existsSync('dist/'+ref),ref);}
 assert.equal((element('objectives-body').innerHTML.match(/<tr>/g)||[]).length,10);
+assert.equal(data.report.normalized.sales,32.5);
+assert.equal(data.report.normalized.ebitda,7.2);
+assert.equal(data.report.comparable.sales,27.2);
+assert.equal(data.report.leverage,1.98);
+assert.equal(data.tracking[5].tone,'positive');
+assert.match(data.tracking[6].status,/no comparable/);
+assert.equal(element('detail-evidence').textContent,data.tracking[9].note);
+assert.match(element('results-snapshot').innerHTML,/32,5/);
+vm.runInContext('renderYear(2026)',context);
+assert.match(element('year-panel').innerHTML,/Sindutex/);
+vm.runInContext('renderYear(2027)',context);
+assert.match(element('year-panel').innerHTML,/Seamless Guatemala/);
 console.log('PASS: 5 años, 10 detalles de objetivos, selección accesible, cifras clave, ausencia de interpolación y archivos enlazados.');

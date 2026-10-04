@@ -238,7 +238,11 @@
         "I+D y automatización productiva, incluida IA aplicada al patronaje",
         "Expansión global de soluciones seamless",
         "M&A selectivo para ampliar productos y acceso a clientes"
-      ]
+      ],
+      "update": {
+        "text": "SICI 93 y Playvest fusionadas. Sindutex incluida en cifras normalizadas; cierre pendiente al publicar.",
+        "page": 13
+      }
     },
     {
       "name": "Hub América",
@@ -253,7 +257,11 @@
         "Expansión de compromisos con clientes finales",
         "Consolidación del mercado medical en EE. UU.",
         "M&A de confeccionadoras para añadir volumen y capacidad"
-      ]
+      ],
+      "update": {
+        "text": "Partnerships suscritos; retrasos de homologación. Nuevos contratos multianuales en negociación.",
+        "page": 7
+      }
     },
     {
       "name": "NextGreen™",
@@ -267,7 +275,137 @@
         "Productos de mayor valor añadido",
         "Aplicación de tecnología propia Greendyes®",
         "Trazabilidad y cumplimiento regulatorio"
-      ]
+      ],
+      "update": {
+        "text": "Greendyes® obtiene certificación ZDHC niveles 2 y 3.",
+        "page": 20
+      }
+    }
+  ],
+  "report": {
+    "period": "1S 2026",
+    "periodEnd": "2026-06-30",
+    "published": "2026-09-30",
+    "checked": "2026-10-05",
+    "file": "resultados-1s-2026.pdf",
+    "url": "https://www.nextil.com/wp-content/uploads/2026/09/Presentacion-de-Resultados-Primer-Semestre-2026-Grupo-Nextil.pdf",
+    "index": "https://www.nextil.com/informacion-publica-periodica-ipp/",
+    "normalized": {
+      "sales": 32.5,
+      "ebitda": 7.2,
+      "netIncome": 4.4,
+      "page": 5
+    },
+    "comparable": {
+      "sales": 27.2,
+      "ebitda": 5.9,
+      "netIncome": 3.2,
+      "operatingCash": 4.3,
+      "page": 6
+    },
+    "debt": 23.86,
+    "leverage": 1.98,
+    "debtPage": 9,
+    "eps": 0.007,
+    "epsPage": 10,
+    "audited": false
+  },
+  "tracking": [
+    {
+      "value": "32,5 M€ normalizados",
+      "status": "Avance semestral",
+      "tone": "partial",
+      "page": 5,
+      "note": "1S 2026. Perímetro comparable: 27,2 M€. Normalizado con Sindutex desde enero; excluye otras 3 adquisiciones previstas. Meta 2026: 118 M€. Sin porcentaje de cumplimiento por diferencia de periodo y perímetro."
+    },
+    {
+      "value": "7,2 M€ normalizados",
+      "status": "Avance semestral",
+      "tone": "partial",
+      "page": 5,
+      "note": "1S 2026. Perímetro comparable: 5,9 M€. Normalizado con Sindutex desde enero; excluye otras 3 adquisiciones previstas. Meta 2026: 25 M€. No se anualiza el semestre."
+    },
+    {
+      "value": "8,8 M€ de ventas",
+      "status": "CAGR pendiente",
+      "tone": "partial",
+      "page": 7,
+      "note": "Hub América, perímetro comparable: 8,8 M€ de ventas y 1,9 M€ de EBITDA en 1S 2026. El crecimiento interanual semestral no mide el CAGR orgánico 2026–2030."
+    },
+    {
+      "value": "18,4 M€ de ventas",
+      "status": "CAGR pendiente",
+      "tone": "partial",
+      "page": 7,
+      "note": "Hub Europa, perímetro comparable: 18,4 M€ de ventas y 4,0 M€ de EBITDA en 1S 2026. El crecimiento interanual semestral no mide el CAGR orgánico 2026–2030."
+    },
+    {
+      "value": "Sin acumulado comparable",
+      "status": "Pendiente de verificar",
+      "tone": "pending",
+      "page": 15,
+      "note": "El informe describe las adquisiciones, pero no aporta un acumulado ejecutado de CAPEX y M&A comparable con los 250 M€ del plan. Las magnitudes de los targets no son inversión realizada."
+    },
+    {
+      "value": "1,98x al 30/06/2026",
+      "status": "Dentro del límite al cierre",
+      "tone": "positive",
+      "page": 9,
+      "note": "DFN de 23,86 M€ y EBITDA de los últimos 12 meses (julio 2025–junio 2026). Cumple <2,5x en esta fecha; no acredita todo el periodo 2026–2030. El 1,4x del roadmap es la previsión anual de 2026."
+    },
+    {
+      "value": "4,3 M€ de caja operativa",
+      "status": "FCF no comparable",
+      "tone": "pending",
+      "page": 22,
+      "note": "Caja operativa del semestre: 4,3 M€ (p. 6). La definición excluye variaciones de circulante y coste de deuda (p. 22); no equivale al flujo de caja libre del plan. No se computa como avance hacia 120 M€."
+    },
+    {
+      "value": "Base temporal por conciliar",
+      "status": "Pendiente de verificar",
+      "tone": "pending",
+      "page": 10,
+      "note": "Se informa de 31.879.791 nuevas acciones por conversiones durante el semestre. El límite del plan parte del cierre de 1S 2026; no se cuentan automáticamente como dilución posterior a esa base. La admisión se describe como hecho posterior (p. 19)."
+    },
+    {
+      "value": "Inicio previsto en 2028",
+      "status": "Periodo no iniciado",
+      "tone": "pending",
+      "page": null,
+      "note": "La política de recompras del plan empieza en 2028. El primer semestre de 2026 queda fuera del periodo de retribución."
+    },
+    {
+      "value": "0,0070 €/acción · 1S",
+      "status": "Avance semestral",
+      "tone": "partial",
+      "page": 10,
+      "note": "BPA semestral de 0,0070 €/acción. No se anualiza ni se divide por la meta anual 2030 para atribuir un porcentaje de cumplimiento."
+    }
+  ],
+  "updates": [
+    {
+      "year": 2026,
+      "title": "Sindutex",
+      "body": "Incluida en el normalizado; formalización pendiente al publicar.",
+      "page": 5
+    },
+    {
+      "year": 2026,
+      "title": "América",
+      "body": "Producción de dos clientes desplazada varios meses.",
+      "page": 7
+    },
+    {
+      "year": 2026,
+      "title": "Grupo Beta · 28 jul",
+      "body": "Acuerdo firmado después del cierre semestral.",
+      "page": 19
+    },
+    {
+      "year": 2027,
+      "title": "Seamless Guatemala",
+      "body": "Puesta en marcha prevista a comienzos de 2027; capacidad reservada.",
+      "page": 13
     }
   ]
 }
