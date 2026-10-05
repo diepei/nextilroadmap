@@ -39,4 +39,4 @@ Para incorporar resultados posteriores, añadir evidencia, fecha y bases compara
 
 ## Publicación
 
-Configuración de Sites en `.openai/hosting.json`. Salida estática en `dist`, sin dependencias ni paso de compilación.
+Configuración de hosting en el archivo incluido. Salida estática en `dist`, sin dependencias ni paso de compilación.
