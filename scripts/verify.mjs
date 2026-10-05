@@ -6,7 +6,7 @@ assert.equal(data.years.length,5);assert.equal(data.years.reduce((s,y)=>s+y.inve
 assert.equal(data.years[4].sales,750);assert.equal(data.years[4].ebitda,150);
 for(const year of data.years.slice(2,4)){assert.equal(year.sales,null);assert.equal(year.ebitda,null);}
 const elements=new Map();
-function element(id){if(!elements.has(id))elements.set(id,{innerHTML:'',textContent:'',dataset:{},setAttribute(k,v){this[k]=v},addEventListener(){},querySelector(){return element(id+'-child')},showModal(){this.open=true},close(){this.open=false},focus(){this.focused=true}});return elements.get(id)}
+function element(id){if(!elements.has(id))elements.set(id,{innerHTML:'',textContent:'',dataset:{},listeners:{},setAttribute(k,v){this[k]=v},addEventListener(k,fn){this.listeners[k]=fn},querySelector(selector){return element(id+'-'+selector)},showModal(){this.open=true},close(){this.open=false},focus(){this.focused=true}});return elements.get(id)}
 const tabs=data.years.map(y=>{const e=element('tab-'+y.year);e.dataset.year=String(y.year);return e});
 const context=vm.createContext({Intl,console,fetch:async()=>({ok:true,json:async()=>data}),document:{getElementById:element,querySelectorAll:()=>tabs}});
 vm.runInContext(fs.readFileSync('dist/app.js','utf8'),context);
@@ -29,4 +29,17 @@ vm.runInContext('renderYear(2026)',context);
 assert.match(element('year-panel').innerHTML,/Sindutex/);
 vm.runInContext('renderYear(2027)',context);
 assert.match(element('year-panel').innerHTML,/Seamless Guatemala/);
+element('year-controls').listeners.click({target:{closest:()=>({dataset:{step:'1'}})}});
+assert.equal(element('selected-year').textContent,'2028');
+assert.match(element('year-panel').innerHTML,/No publicado/);
+element('year-controls').listeners.click({target:{closest:()=>({dataset:{step:'-1'}})}});
+assert.equal(element('selected-year').textContent,'2027');
+vm.runInContext('renderYear(2026)',context);
+assert.equal(element('year-controls').querySelector('[data-step="-1"]').disabled,true);
+vm.runInContext('renderYear(2030)',context);
+assert.equal(element('year-controls').querySelector('[data-step="1"]').disabled,true);
+assert.match(element('objectives-body').innerHTML,/Anual · ejercicio 2030/);
+assert.match(element('objectives-body').innerHTML,/Acumulado · 2026–2030/);
+assert.equal((element('pillars').innerHTML.match(/<details /g)||[]).length,3);
+assert.equal((element('pillars').innerHTML.match(/<\/details>/g)||[]).length,3);
 console.log('PASS: 5 años, 10 detalles de objetivos, selección accesible, cifras clave, ausencia de interpolación y archivos enlazados.');

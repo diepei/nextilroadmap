@@ -1,0 +1,9 @@
+{
+  "name": "nextilroadmap",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/verify.mjs",
+    "dev": "python3 -m http.server 8000 --directory dist"
+  }
+}

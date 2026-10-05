@@ -4,7 +4,26 @@ Web estática en español del Plan Estratégico de Crecimiento y Expansión 2026
 
 ## Ejecutar
 
-Desde este directorio: `python3 -m http.server 8000 --directory dist`. Abrir http://localhost:8000.
+Desde este directorio: `npm run dev`. Abrir http://localhost:8000.
+
+## Despliegue en Vercel
+
+El proyecto es un sitio estático. `vercel.json` configura `dist` como directorio de salida y ejecuta la verificación antes de cada despliegue.
+
+Con la CLI de Vercel:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+Para producción:
+
+```bash
+vercel --prod
+```
+
+También se puede importar el repositorio en Vercel usando la configuración incluida. No hace falta seleccionar un framework: el directorio de salida es `dist`.
 
 ## Contenido y seguimiento
 
