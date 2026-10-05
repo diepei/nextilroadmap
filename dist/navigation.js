@@ -17,23 +17,24 @@
   }
 
   button.addEventListener('click', () => setOpen(!open));
-  navigation.addEventListener('click', event => {
-    const link = event.target.closest('a');
-    if (!link || !open) return;
-    setOpen(false);
-    const target = document.querySelector(link.hash);
-    if (target) {
+  document.addEventListener('click', event => {
+    const control = event.target.closest('[data-nav-target]');
+    if (!control) return;
+    const target = document.getElementById(control.dataset.navTarget);
+    if (!target) return;
+    if (open) setOpen(false);
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (control.closest('nav')) {
       target.setAttribute('tabindex', '-1');
       target.focus({ preventScroll: true });
       target.addEventListener('blur', () => target.removeAttribute('tabindex'), { once: true });
     }
   });
-  document.querySelector('.brand').addEventListener('click', () => setOpen(false));
   document.addEventListener('keydown', event => {
     if (!open) return;
     if (event.key === 'Escape') setOpen(false, true);
     if (event.key === 'Tab') {
-      const controls = [...document.querySelectorAll('header a, header button')];
+      const controls = [...document.querySelectorAll('header .brand, header button')];
       const first = controls[0];
       const last = controls[controls.length - 1];
       if (event.shiftKey && document.activeElement === first) {

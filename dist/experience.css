@@ -33,3 +33,9 @@ html{scroll-padding-top:110px}main{overflow-x:clip;max-width:1440px}header{posit
   .navigation-open #site-navigation a:nth-child(3){transition-delay:160ms}
   .navigation-open #site-navigation a:nth-child(4){transition-delay:200ms}
 }
+
+/* Keep in-page controls interactive without introducing additional links. */
+header nav button{padding:0;border:0;background:transparent;color:#314f41;font:inherit;font-size:14px;cursor:pointer}
+header nav button:hover{color:var(--green);text-decoration:underline}
+.primary-action,.secondary-action{font-family:inherit;cursor:pointer}
+@media(max-width:760px){header nav button{font-size:12px}}
