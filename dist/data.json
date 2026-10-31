@@ -286,7 +286,7 @@
     "period": "1S 2026",
     "periodEnd": "2026-06-30",
     "published": "2026-09-30",
-    "checked": "2026-10-05",
+    "checked": "2026-10-31",
     "file": "resultados-1s-2026.pdf",
     "url": "https://www.nextil.com/wp-content/uploads/2026/09/Presentacion-de-Resultados-Primer-Semestre-2026-Grupo-Nextil.pdf",
     "index": "https://www.nextil.com/informacion-publica-periodica-ipp/",
@@ -361,11 +361,11 @@
       "note": "Caja operativa del semestre: 4,3 M€ (p. 6). La definición excluye variaciones de circulante y coste de deuda (p. 22); no equivale al flujo de caja libre del plan. No se computa como avance hacia 120 M€."
     },
     {
-      "value": "Base temporal por conciliar",
+      "value": "462.585.324 acciones inscritas (03/09/2026)",
       "status": "Pendiente de verificar",
       "tone": "pending",
       "page": 10,
-      "note": "Se informa de 31.879.791 nuevas acciones por conversiones durante el semestre. El límite del plan parte del cierre de 1S 2026; no se cuentan automáticamente como dilución posterior a esa base. La admisión se describe como hecho posterior (p. 19)."
+      "note": "El informe 1S 2026 recoge 31.879.791 nuevas acciones por conversiones de obligaciones durante el semestre (p. 10). Según el registro de derechos de voto y capital de la CNMV (comunicaciones del 02/10/2026), tras inscribirse esas conversiones el 31/07 y el 03/09/2026 hay 462.585.324 acciones (430.705.533 + 31.879.791). La cifra supera en 4.750.112 la base de 457.835.212 acciones que el plan fija al cierre de 1S 2026; hasta conciliar ambas bases no se calcula el incremento ni se compara con el límite del 20%."
     },
     {
       "value": "Inicio previsto en 2028",
